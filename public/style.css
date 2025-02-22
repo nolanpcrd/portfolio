@@ -52,6 +52,6 @@ a:hover::after {
     width: 100%;
 }
 
-#screen2, #screen3, #screen1{
+#screen2, #screen3{
     display: none;
 }
