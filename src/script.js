@@ -351,7 +351,6 @@ let video = null;
 let videoStream = null;
 
 async function startCameraFeed() {
-  alert(navigator.mediaDevices);
   if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) {
     alert("Your browser doesn't support camera access");
     refreshCanvas();
